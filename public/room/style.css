@@ -1,0 +1,135 @@
+video {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border: 2.5px solid #f97316;
+    border-radius: 10px;
+    margin: 5px;
+}
+ul {
+    color: #fff;
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+::-webkit-scrollbar {
+    width: 7.5px;
+    height: 100%;
+    background-color: #1c1e20;
+}
+::-webkit-scrollbar-thumb {
+    height: 20%;
+    background-color: #f97316;
+}
+#video-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.room {
+    height: 100vh;
+    display: flex;
+}
+.room-left {
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+}
+
+.room-right {
+    flex: 0.25;
+    background-color: #1c1e20;
+    border-left: 2px solid #f97316;
+    display: flex;
+    flex-direction: column;
+}
+.room-id {
+    padding-top: 1rem;
+    color: #f97316;
+}
+.room-left-video {
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.room-left-action-bar {
+    background-color: #1c1e20;
+    color: #fff;
+    display: flex;
+    border-top: 2px solid #f97316;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.action {
+    display: flex;
+}
+
+.action-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #151515;
+    border-radius: 5px;
+}
+
+.action-btn i {
+    font-size: 24px;
+}
+
+.room-right-heading {
+    padding-top: 5px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #f97316;
+    border-right: 2px solid #f97316;
+}
+
+.room-right-chat {
+    padding-top: 1rem;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.room-right-send {
+    border-top: 2px solid #f97316;
+    padding: 18px 12px;
+    display: flex;
+}
+
+.btn-teams {
+    color: #fff;
+    background-color: #f97316;
+    border-color: #f97316;
+}
+.form-control:focus {
+    border-color: #f97316;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #f97316;
+}
+.btn:focus {
+    border-color: #f97316;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #f97316;
+}
+.unmute,
+.stop {
+    color: #f97316;
+}
+.join {
+    color: #91d18b;
+}
+.leave {
+    color: #fb3640;
+}
+.author {
+    color: #f97316 !important;
+}
